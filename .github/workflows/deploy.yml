@@ -3,13 +3,13 @@ name: Deploy Pages
 on:
   push:
     branches:
-      - master
+    - master
     paths:
-      - 'docs/*'
+    - 'docs/*'
 
 
 jobs:
-  build:
+  deploy:
 
     runs-on: ubuntu-latest
 
