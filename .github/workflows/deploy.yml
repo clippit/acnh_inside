@@ -3,7 +3,9 @@ name: Deploy Pages
 on:
   push:
     branches:
-    - master
+      - master
+    paths:
+      - 'docs/**'
 
 
 jobs:
