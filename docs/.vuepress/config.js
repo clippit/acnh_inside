@@ -1,6 +1,5 @@
 module.exports = {
     title: 'AC:NH Inside',
-    base: '/acnh_inside/',
     locales: {
         '/': {
             lang: 'zh-CN'
